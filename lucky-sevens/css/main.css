@@ -1,0 +1,22 @@
+/* Luck Strike CSS */
+
+html {
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+
+.gameInput {
+  border-bottom: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+Name: Rick J. Mansfield
+Date Created: 09/29/2018
+Most Recent Revision: 1
+-->
+
+<html lang="en">
+    <head>
+			<script type="text/javascript" src="luckySevens.js"></script>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+			<link href="css/main.css" rel="stylesheet" type="text/css" />
+			<title>Lucky 7's</title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Lucky Sevens</h1>
+        </header>
+
+				<section>
+					<article class="gameInput">
+						<form name="luckySevens">
+							<label for="startingBet">Starting Bet:</label>
+							<input id="bet" name="bet" value="25" /><br />
+							<button type="submit" id="Play">Play</button>
+						</form>
+					</article>
+
+					<article id="results">
+						<caption>Results</caption>
+						<table>
+							<tr>
+								<td>Starting Bet:</td>
+								<td><span id="initialBet"></span></td>
+	            </tr>
+	            <tr>
+                <td>Total Rolls Before Going Broke:</td>
+                <td><span id="rollsBroke"></span></td>
+	            </tr>
+	            <tr>
+                <td>Highest Amount Won:</td>
+                <td><span id="maxMoney"></span></td>
+	            </tr>
+	            <tr>
+                <td>Roll Count at Hightest Amount Won:</td>
+                <td><span id="rollsatMax"></span></td>
+	            </tr>
+						</table>
+					</article>
+
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
